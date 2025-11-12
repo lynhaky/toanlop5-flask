@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Học Toán Lớp 5 — Web</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fff8ee; text-align: center; padding-top: 40px; }
+    .box { display: inline-block; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 0 10px #ddd; }
+    input, select { padding: 6px; margin: 5px; border-radius: 5px; border: 1px solid #ccc; }
+    button { background: linear-gradient(to right, #ff9966, #ff5e62); color: white; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; }
+    .note { color: #666; font-size: 13px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>📘 Học Toán Lớp 5 — Phiên bản Web</h2>
+    <form method="post">
+      <label>Chọn phần:</label>
+      <select name="part">
+        <option value="1">Phần 1</option>
+        <option value="2">Phần 2</option>
+      </select><br>
+
+      <label>Bài bắt đầu:</label>
+      <input type="number" name="bai_from" value="1" min="1">
+
+      <label>Bài kết thúc:</label>
+      <input type="number" name="bai_to" value="1" min="1"><br>
+
+      <label>Số câu:</label>
+      <input type="number" name="n" value="10" min="1" max="50"><br>
+
+      <button type="submit">Tạo bộ câu</button>
+      <p class="note">Chọn bài học theo SGK để lấy đúng nội dung. Ví dụ: bài 1–3 thuộc phần 1, bài 7–9 thuộc phần 2.</p>
+    </form>
+  </div>
+</body>
+</html>

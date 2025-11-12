@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Làm bài Toán Lớp 5</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #fffaf2; margin: 0; padding: 30px; }
+    .qbox { background: white; padding: 20px; margin-bottom: 15px; border-radius: 12px; box-shadow: 0 0 8px #ddd; }
+    input[type=text] { width: 60%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; }
+    .note { font-size: 13px; color: #666; margin-top: 5px; }
+    img { margin-top: 10px; border-radius: 10px; max-width: 280px; display: block; }
+    button { background: linear-gradient(to right, #ff9966, #ff5e62); color: white; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>📖 Làm bài Toán (Phần {{ part }}, Bài {{ bai_from }}–{{ bai_to }})</h2>
+  <form method="post" action="/grade">
+    {% for item in quiz %}
+      <div class="qbox">
+        <div><b>{{ loop.index }}.</b> {{ item.q }}</div>
+
+        {% if item.img %}
+          <img src="{{ url_for('static', filename='img/' + item.img) }}" alt="minh họa">
+        {% endif %}
+
+        <input type="text" name="user{{ loop.index0 }}" placeholder="Nhập đáp án tại đây...">
+        <input type="hidden" name="correct{{ loop.index0 }}" value="{{ item.a }}">
+        <input type="hidden" name="q{{ loop.index0 }}" value="{{ item.q }}">
+        <div class="note">💡 Ghi chú: Nếu là phân số, ghi dạng a/b (ví dụ: 3/8). Với số thập phân làm tròn 2 chữ số.</div>
+      </div>
+    {% endfor %}
+    <button type="submit">✅ Nộp bài</button>
+  </form>
+</body>
+</html>
+{% if graded %}
+  <div style="margin-top:40px; background:#fff; padding:20px; border-radius:10px; box-shadow:0 0 8px #ccc;">
+    <h3>🎯 Kết quả</h3>
+    <p>Bạn làm đúng {{ score }}/{{ n }} câu ({{ percent }}%)</p>
+    <table border="1" cellpadding="6" cellspacing="0" style="margin:auto;">
+      <tr><th>Câu hỏi</th><th>Đáp án của bạn</th><th>Đáp án đúng</th><th>Kết quả</th></tr>
+      {% for item in quiz %}
+      <tr>
+        <td>{{ item.q }}</td>
+        <td>{{ item.user }}</td>
+        <td>{{ item.correct }}</td>
+        <td>{% if item.ok %}✅{% else %}❌{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <a href="/" style="display:inline-block; margin-top:15px;">🔁 Làm lại</a>
+  </div>
+{% endif %}

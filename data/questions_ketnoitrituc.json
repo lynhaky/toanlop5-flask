@@ -1,0 +1,245 @@
+{
+  "phan1": {
+    "1. Ôn tập và bổ sung": [
+      {
+        "q": "Tính 325 + 478 =",
+        "a": "803"
+      },
+      {
+        "q": "Tính 920 - 465 =",
+        "a": "455"
+      },
+      {
+        "q": "Tính 36 × 8 =",
+        "a": "288"
+      },
+      {
+        "q": "Phân số chỉ phần đã tô màu nếu tô 3 phần trong 5 phần bằng nhau:",
+        "a": "3/5",
+        "img": "phan_so_to_mau.png"
+      },
+      {
+        "q": "Rút gọn phân số 4/8 =",
+        "a": "1/2"
+      },
+      {
+        "q": "Một cửa hàng bán 20kg gạo, mỗi kg 18.000đ. Tổng là:",
+        "a": "360000"
+      }
+    ],
+    "2. Số thập phân": [
+      {
+        "q": "Viết số thập phân biểu thị ba phần mười:",
+        "a": "0.3",
+        "img": "so_thap_phan.png"
+      },
+      {
+        "q": "0.25 × 4 =",
+        "a": "1"
+      },
+      {
+        "q": "Viết số thập phân gồm 2 đơn vị, 5 phần trăm:",
+        "a": "2.05"
+      },
+      {
+        "q": "So sánh: 0.8 ___ 0.75 (>, <, = ?)",
+        "a": ">"
+      },
+      {
+        "q": "0.5 + 0.25 =",
+        "a": "0.75"
+      }
+    ],
+    "3. Đơn vị đo diện tích": [
+      {
+        "q": "1 m² = bao nhiêu dm² ?",
+        "a": "100",
+        "img": "hinh_vuong.png"
+      },
+      {
+        "q": "1 ha = bao nhiêu m² ?",
+        "a": "10000"
+      },
+      {
+        "q": "Hình vuông cạnh 5m có diện tích là:",
+        "a": "25",
+        "img": "hinh_vuong.png"
+      },
+      {
+        "q": "Hình chữ nhật dài 12m, rộng 8m. Diện tích là:",
+        "a": "96",
+        "img": "hinh_chu_nhat.png"
+      }
+    ],
+    "4. Phép tính với số thập phân": [
+      {
+        "q": "3.5 + 1.25 =",
+        "a": "4.75"
+      },
+      {
+        "q": "5.6 - 2.8 =",
+        "a": "2.8"
+      },
+      {
+        "q": "2.4 × 3 =",
+        "a": "7.2"
+      },
+      {
+        "q": "4.8 ÷ 2 =",
+        "a": "2.4"
+      }
+    ],
+    "5. Hình phẳng": [
+      {
+        "q": "Tính diện tích hình tam giác có đáy 10cm, cao 8cm:",
+        "a": "40",
+        "img": "hinh_tam_giac.png"
+      },
+      {
+        "q": "Tính diện tích hình vuông cạnh 6cm:",
+        "a": "36",
+        "img": "hinh_vuong.png"
+      },
+      {
+        "q": "Tính chu vi hình vuông cạnh 9cm:",
+        "a": "36"
+      },
+      {
+        "q": "Tính chu vi hình chữ nhật dài 8m, rộng 6m:",
+        "a": "28",
+        "img": "hinh_chu_nhat.png"
+      }
+    ],
+    "6. Ôn tập học kì I": [
+      {
+        "q": "Tính 0.8 × 7 =",
+        "a": "5.6"
+      },
+      {
+        "q": "Tính 1/2 + 1/4 =",
+        "a": "3/4"
+      },
+      {
+        "q": "Hình vuông cạnh 5m có chu vi là:",
+        "a": "20",
+        "img": "hinh_vuong.png"
+      },
+      {
+        "q": "Tính 2.5 + 4.25 =",
+        "a": "6.75"
+      }
+    ]
+  },
+
+  "phan2": {
+    "7. Tỉ số và tỉ lệ phần trăm": [
+      {
+        "q": "Tìm tỉ số của 12 và 15:",
+        "a": "4/5"
+      },
+      {
+        "q": "40% của 200 là:",
+        "a": "80",
+        "img": "ti_le_phan_tram.png"
+      },
+      {
+        "q": "Một lớp có 25 học sinh, 10 là nữ. Tỉ lệ phần trăm nữ là:",
+        "a": "40",
+        "img": "ti_le_phan_tram.png"
+      },
+      {
+        "q": "Tính 15% của 80:",
+        "a": "12"
+      }
+    ],
+    "8. Thể tích và đơn vị đo thể tích": [
+      {
+        "q": "1 lít = bao nhiêu cm³ ?",
+        "a": "1000"
+      },
+      {
+        "q": "Thể tích hình hộp chữ nhật: 3dm × 4dm × 5dm =",
+        "a": "60",
+        "img": "hinh_hop_chu_nhat.png"
+      },
+      {
+        "q": "Thể tích hình lập phương cạnh 4dm =",
+        "a": "64",
+        "img": "hinh_lap_phuong.png"
+      },
+      {
+        "q": "Hình hộp chữ nhật có kích thước 2m, 3m, 4m. Thể tích là:",
+        "a": "24"
+      }
+    ],
+    "9. Diện tích và thể tích hình khối": [
+      {
+        "q": "Tính diện tích xung quanh hình hộp chữ nhật 4×3×2 dm:",
+        "a": "52",
+        "img": "hinh_hop_chu_nhat.png"
+      },
+      {
+        "q": "Hình lập phương cạnh 5cm. Diện tích toàn phần là:",
+        "a": "150",
+        "img": "hinh_lap_phuong.png"
+      },
+      {
+        "q": "Thể tích hình lập phương cạnh 7cm:",
+        "a": "343",
+        "img": "hinh_lap_phuong.png"
+      }
+    ],
+    "10. Thời gian - Vận tốc - Quãng đường": [
+      {
+        "q": "Một ô tô đi 60km trong 1 giờ. Vận tốc là:",
+        "a": "60",
+        "img": "van_toc_quang_duong.png"
+      },
+      {
+        "q": "Một người đi 4 giờ được 20km. Vận tốc là:",
+        "a": "5"
+      },
+      {
+        "q": "Một tàu chạy với vận tốc 40km/h trong 3 giờ. Quãng đường là:",
+        "a": "120"
+      }
+    ],
+    "11. Thống kê và xác suất": [
+      {
+        "q": "Điểm kiểm tra: 6, 7, 9, 8, 10. Trung bình cộng là:",
+        "a": "8",
+        "img": "bieu_do_cot.png"
+      },
+      {
+        "q": "Biểu đồ có 4 cột cao 10, 15, 20, 5. Cột cao nhất là:",
+        "a": "20",
+        "img": "bieu_do_cot.png"
+      },
+      {
+        "q": "Một tổ có 10 bạn, 6 bạn nam. Tỉ lệ nam là:",
+        "a": "60"
+      }
+    ],
+    "12. Ôn tập cuối năm": [
+      {
+        "q": "Tính 0.3 + 0.8 =",
+        "a": "1.1"
+      },
+      {
+        "q": "40% của 250 =",
+        "a": "100",
+        "img": "ti_le_phan_tram.png"
+      },
+      {
+        "q": "Tính thể tích hình hộp chữ nhật 5×4×3 =",
+        "a": "60",
+        "img": "hinh_hop_chu_nhat.png"
+      },
+      {
+        "q": "Tính vận tốc khi đi 36km trong 3 giờ:",
+        "a": "12",
+        "img": "van_toc_quang_duong.png"
+      }
+    ]
+  }
+}
